@@ -1,0 +1,40 @@
+#梦想年华JSP版新闻发布系统数据库配置文件
+#请更改以下信息，以便正确连接数据库
+
+#数据库类型:0为Access,1为MYSQL,2为MSSQL，请改成您用的数据库。默认为1。
+DBType=0
+
+#Access 数据库连接信息
+#Access 驱动程序
+AccessDriver=sun.jdbc.odbc.JdbcOdbcDriver
+
+#Access 连接字符串。
+AccessURL=jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=
+
+#Access 数据库名
+AccessPath=D:/Server/Tomcat/webapps/news/WEB-INF/DreamNews.mdb
+
+
+#MySQL 数据库连接信息
+#MySQL 数据库驱动程序
+MySQLDriver=org.gjt.mm.mysql.Driver
+
+#MySQL数据库连接字符串。
+#DreamTimeNews 为数据库名，user 为登录用户名，password 为登录密码。请自行更改。
+MySQLURL=jdbc:mysql://localhost:3306/DreamTimeNews?user=dreamnews&password=dreamnews&useUnicode=true&characterEncoding=GBK
+
+
+#SQL Server 数据库连接信息
+#SQL Server 驱动程序
+SQLDriver=net.sourceforge.jtds.jdbc.Driver
+
+#SQL Server 数据库连接字符串
+#DreamTimeNews 为数据库名，user 为登录用户名，password 为登录密码。请自行更改。
+SQLURL=jdbc:jtds:sqlserver://localhost:1433/DreamTimeNews;user=dreamnews;password=dreamnews
+
+
+#Oracle数据库连接信息
+OracleDriver=oracle.jdbc.driver.OracleDriver
+OracleURL=jdbc:oracle:thin:@192.168.0.1:1521:SID
+datasource.username=dreamnews
+datasource.password=dreamnews

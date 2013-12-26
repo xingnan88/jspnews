@@ -1,0 +1,95 @@
+/* CSS Document */
+
+
+@charset "GBK";
+
+/* 链接颜色 */
+A:link {
+	COLOR: #457FFC; TEXT-DECORATION: none; font-family: "宋体"; font-size: 9pt
+}
+A:visited {
+	COLOR: #457FFC; TEXT-DECORATION: none; font-family: "宋体"; font-size: 9pt
+}
+A:active {
+	COLOR: #FF0000; TEXT-DECORATION: none; font-family: "宋体"; font-size: 9pt
+}
+A:hover {
+	COLOR: #6600FF; TEXT-DECORATION: underline; font-family: "宋体"; font-size: 9pt
+}
+
+.news a:link{ COLOR:#555555; TEXT-DECORATION: none; font-family: "宋体"; font-size: 12px}
+.news a:visited{COLOR:#336699; TEXT-DECORATION: none; font-family: "宋体"; font-size: 12px}
+.news a:hover{COLOR: #ff6600; TEXT-DECORATION: underline; font-family: "宋体"; font-size:12px}
+.news a:active{COLOR:#ff0000; TEXT-DECORATION: none; font-family: "宋体"; font-size: 12px}
+
+
+/*页面属性*/
+BODY {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	BACKGROUND:#DBE6FE; 
+	MARGIN: 0px; 
+	FONT: 9pt 宋体;
+	SCROLLBAR-HIGHLIGHT-COLOR:#d6dff7;
+	SCROLLBAR-ARROW-COLOR:#215dc6;
+	SCROLLBAR-TRACK-COLOR:#d6dff7;
+	SCROLLBAR-BASE-COLOR:#AEC6F0;
+}
+
+
+/*按钮属性*/
+.button {
+	BORDER-RIGHT: #457FFC 1px ridge;
+	PADDING-RIGHT: 1px;
+	BORDER-TOP: #ffffff 1px ridge;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 9pt;
+	PADDING-BOTTOM: 1px;
+	BORDER-LEFT: #ffffff 1px ridge;
+	COLOR: #000000;
+	PADDING-TOP: 1px;
+	BORDER-BOTTOM: #457FFC 1px ridge;
+	FONT-FAMILY: "宋体";
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: #f1f1f1;
+	cursor: hand;
+}
+
+/*文字属性*/
+.chinese
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: "宋体";
+	color:#333333;
+}
+
+/*标题属性*/
+.title {
+	font-size:12pt;
+	font-family: "宋体";
+	color:#457FFC;
+	}
+	
+/*提示信息字体属性*/
+.info1
+{ 
+	color:#FA605E;
+    font-size:10pt;
+}
+
+/*表格属性*/
+table { 
+	background-color:#DBE6FE;
+	border-color:#457FFC;
+	border-collapse:collapse;
+	border-top-color:#457FFC;
+	border-right-color:#457FFC;
+	border-left-color:#457FFC;
+	border-bottom-color:#457FFC;
+	}
+	
+tr { border-color:#457FFC; }
+td { border-color:#457FFC; }	
+
